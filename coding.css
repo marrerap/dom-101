@@ -1,0 +1,74 @@
+.navbar {
+    background-color: rgb(72, 143, 236);
+    padding: 2px 10px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    padding-right: 50px;
+}
+
+.navbar ul li.active {
+    font-weight: bolder;
+}
+
+.curseBox {
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.watchKit {
+    margin: 20px;
+    background-color: white;
+}
+.watchKitComment ul {
+    display: flex;
+    list-style-type: none;
+    background-color: orange;
+    justify-content: start;
+    padding-left: 10px;
+
+}
+
+.watchKitComment li {
+    padding-right: 50px;
+    color: white;
+}
+
+h3 {
+   color: blue;
+   font-family: sans-serif; 
+}
+
+.swiftBox {
+    margin: 20px;
+    background-color: white;
+}
+.swiftComment ul {
+    display: flex;
+    list-style-type: none;
+    background-color: orange;
+    justify-content: start;
+    padding-left: 10px;
+
+    
+}
+
+.swiftComment li {
+    padding-right: 50px;
+    color: white;
+}
+
+h3 {
+   color: blue;
+   font-family: sans-serif; 
+}
